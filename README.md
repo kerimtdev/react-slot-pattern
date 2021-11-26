@@ -13,13 +13,13 @@ const Card: React.FC = ({ children }) => {
   const HeaderTemplate = useSlot({
     children,
     name: "Header",
-    fallback: <>Card header not found!</>,
+    fallback: <>Card header is not found!</>,
   });
 
   const BodyTemplate = useSlot({
     children,
     name: "Body",
-    fallback: <>Card body not found!</>,
+    fallback: <>Card body is not found!</>,
   });
 
   return (
