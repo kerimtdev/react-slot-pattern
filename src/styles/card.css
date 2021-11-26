@@ -1,0 +1,32 @@
+.card {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.16rem;
+  padding: 1.4rem;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.08);
+  border-radius: 1rem;
+}
+
+.card .card__header {
+  margin: 0 0 1rem;
+}
+
+.card .card__header h1 {
+  margin: 0 0 0.4rem;
+}
+
+.card .card__header p {
+  color: #555;
+  margin: 0 0 0.24rem;
+}
+
+.card .card__body p {
+  font-size: 0.96rem;
+  line-height: 1.614;
+  margin: 0 0 1rem;
+}
+
+.card .card__body p:is(:last-of-type) {
+  margin: 0;
+}
