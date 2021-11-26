@@ -6,7 +6,7 @@ Slot-based children organization for React.
 
 `useSlot` hook is a selector for named slots.
 
-`withSlot` wrapper function generates `Card.Slot` component for base component.
+`withSlot` wrapper function generates `Slot` component for base component.
 
 ```tsx
 const Card: React.FC = ({ children }) => {
